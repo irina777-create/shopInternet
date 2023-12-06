@@ -1,0 +1,49 @@
+.shoping{
+    width: 900px;
+    height: 1200px;
+    display: flex;
+}
+
+.catigorii{
+    width:300px;
+    height: 400px;
+    background-color: aqua;
+
+}
+.shop{
+    width:300px;
+    height: 400px;
+    background-color: aquamarine;
+
+
+}
+.info{
+    width:300px;
+    height: 400px;
+    background-color: chartreuse;
+
+
+}
+header{
+    width:900px;
+    height: 200px;
+    background-color: #b2d997;
+
+}
+h1,h2,h3{
+    margin-top: 30px;
+    color: brown;
+    text-align: center;
+}
+li{
+    font-size: 20px;
+}
+.button {
+    background-color: #33ae74;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    margin: auto;
+
+}
+
