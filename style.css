@@ -1,49 +1,65 @@
-.shoping{
-    width: 900px;
-    height: 1200px;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #c8ffb6;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+main{
     display: flex;
 }
-
-.catigorii{
-    width:300px;
-    height: 400px;
-    background-color: aqua;
+div{
+    width: 33.33%;
 
 }
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+li{
+    font-size: 30px;
+    margin: 10%;
+}
+
+li:hover{
+    color: #f8f5f5;
+}
+.category{
+    background-color: #789f74;
+}
+
 .shop{
-    width:300px;
-    height: 400px;
-    background-color: aquamarine;
-
-
+    background-color: #cfffc4;
 }
+
 .info{
-    width:300px;
-    height: 400px;
-    background-color: chartreuse;
-
+    background-color: #d2ecfa;
 
 }
-header{
-    width:900px;
-    height: 200px;
-    background-color: #b2d997;
-
+mg{
+    width: 90%;
+    margin: 5% 5%;
 }
-h1,h2,h3{
-    margin-top: 30px;
-    color: brown;
+
+h3{
+    font-size: 35px;
     text-align: center;
 }
-li{
-    font-size: 20px;
-}
-.button {
-    background-color: #33ae74;
-    width: 80px;
-    height: 30px;
-    align-items: center;
-    margin: auto;
 
+button{
+    font-size: 200%;
+    width: 80%;
+    margin: auto 10%;
 }
-
