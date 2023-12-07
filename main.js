@@ -11,16 +11,16 @@ function chooseShop(event){
     const choosenCatigory = Array.from(category.children)
     switch (event.target.textContent){
         case  choosenCatigory[0].textContent:
-            ShowGoods.showCats();
+            ShowShop.showCats();
             break;
         case  choosenCatigory[1].textContent:
-            ShowGoods.showDogs()
+            ShowShop.showDogs()
             break;
         case  choosenCatigory[2].textContent:
-            ShowGoods.showBirds()
+            ShowShop.showBirds()
             break;
         case  choosenCatigory[3].textContent:
-            ShowGoods.showRodents()
+            ShowShop.showRodents()
             break;
 
     }
